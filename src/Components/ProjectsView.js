@@ -21,8 +21,20 @@ export default function ProjectsView() {
         Past Projects
       </h1>
       <Flex as="article" justifyCenter>
-        <ProjectTile projectLink="https://codepen.io/brinim/full/GRJJbma" projectImageAlt={'Survey Form'} projectImageSrc={'https://raw.githubusercontent.com/BriniM/fcc/main/2.png'} />
-        <ProjectTile projectLink="https://codepen.io/brinim/full/rNVaoNo" projectImageAlt={'Pasteur Tribute'} projectImageSrc={'https://raw.githubusercontent.com/BriniM/fcc/main/1.png'} />
+        <ProjectTile
+          projectLink="https://codepen.io/brinim/full/GRJJbma"
+          projectImageAlt={"Survey Form"}
+          projectImageSrc={
+            "https://raw.githubusercontent.com/BriniM/fcc/main/2.png"
+          }
+        />
+        <ProjectTile
+          projectLink="https://codepen.io/brinim/full/rNVaoNo"
+          projectImageAlt={"Pasteur Tribute"}
+          projectImageSrc={
+            "https://raw.githubusercontent.com/BriniM/fcc/main/1.png"
+          }
+        />
       </Flex>
     </Flex>
   );

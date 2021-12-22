@@ -1,0 +1,18 @@
+#navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+#navbar > ul > li > a {
+  text-decoration: none;
+}
+
+#navbar > ul {
+  list-style-type: none;
+}
+
+#navbar > ul > li {
+  margin: 0 20px;
+}
